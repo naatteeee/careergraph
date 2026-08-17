@@ -1,0 +1,66 @@
+{
+  "n_ads": 58,
+  "gold_skills": 709,
+  "results": [
+    {
+      "TP": 195,
+      "FP": 177,
+      "FN": 514,
+      "P": 0.524,
+      "R": 0.275,
+      "F1": 0.361,
+      "System": "Lexicon (ESCO)",
+      "Match": "EXACT"
+    },
+    {
+      "TP": 191,
+      "FP": 551,
+      "FN": 518,
+      "P": 0.257,
+      "R": 0.269,
+      "F1": 0.263,
+      "System": "LLM (zero-shot)",
+      "Match": "EXACT"
+    },
+    {
+      "TP": 336,
+      "FP": 727,
+      "FN": 373,
+      "P": 0.316,
+      "R": 0.474,
+      "F1": 0.379,
+      "System": "Union (hybrid)",
+      "Match": "EXACT"
+    },
+    {
+      "TP": 197,
+      "FP": 175,
+      "FN": 512,
+      "P": 0.53,
+      "R": 0.278,
+      "F1": 0.364,
+      "System": "Lexicon (ESCO)",
+      "Match": "RELAXED"
+    },
+    {
+      "TP": 290,
+      "FP": 452,
+      "FN": 419,
+      "P": 0.391,
+      "R": 0.409,
+      "F1": 0.4,
+      "System": "LLM (zero-shot)",
+      "Match": "RELAXED"
+    },
+    {
+      "TP": 410,
+      "FP": 653,
+      "FN": 299,
+      "P": 0.386,
+      "R": 0.578,
+      "F1": 0.463,
+      "System": "Union (hybrid)",
+      "Match": "RELAXED"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# --- Core (always required) ---
+numpy>=1.26
+streamlit>=1.36
+pandas>=2.2
+
+# --- AI / embeddings ---
+# Local embeddings (heavy: pulls torch). Optional if using EMBEDDING_BACKEND=openai or hashing.
+sentence-transformers>=3.0
+
+# --- Job providers (HTTP) ---
+requests>=2.31
+
+# --- Databases ---
+psycopg[binary]>=3.1
+neo4j>=5.20
+
+# --- Dev / test ---
+pytest>=8.0
