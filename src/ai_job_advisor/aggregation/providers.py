@@ -1,10 +1,4 @@
-"""Concrete job providers: Adzuna, Jooble, EURES.
 
-Each provider is resilient: missing credentials or network/HTTP errors result
-in an empty list and a logged warning, never an exception. Endpoint contracts
-should be re-verified against current provider documentation before production
-use; they are implemented here to the commonly documented request shapes.
-"""
 from __future__ import annotations
 
 import logging

@@ -1,10 +1,4 @@
-"""Job provider abstraction.
 
-Every source (Adzuna, Jooble, EURES, future portals) implements
-:class:`JobProvider`. The :class:`~ai_job_advisor.aggregation.aggregator.JobAggregator`
-fans out a query across all enabled providers and merges the results, so adding
-a new source is a single new subclass with no changes elsewhere.
-"""
 from __future__ import annotations
 
 from abc import ABC, abstractmethod

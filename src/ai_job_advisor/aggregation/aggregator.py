@@ -1,11 +1,4 @@
-"""Job aggregator.
 
-Fans a query out across all configured providers, merges results, and
-deduplicates the *same logical role* seen on multiple sources via
-``JobPosting.content_hash``. When a duplicate is found, mainstream sources are
-preferred as the canonical record but the alternate source is remembered so
-coverage analytics can still see it.
-"""
 from __future__ import annotations
 
 import logging

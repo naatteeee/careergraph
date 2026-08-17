@@ -1,15 +1,3 @@
-"""Recommendation engine.
-
-Combines two complementary signals into a single match score:
-
-* **Semantic score** — cosine similarity between the user-profile embedding and
-  each job embedding (captures fuzzy/implicit/cross-lingual relevance).
-* **Skill similarity** — weighted overlap between the user's skills and the
-  job's required skills (captures explicit, explainable matching).
-
-Each recommendation also surfaces matched and missing skills, which feed the
-skill-gap analysis and the path-based explanations.
-"""
 from __future__ import annotations
 
 from dataclasses import dataclass

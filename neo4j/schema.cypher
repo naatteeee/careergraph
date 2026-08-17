@@ -1,10 +1,6 @@
-// AI Job Advisor — Neo4j schema
-// Apply with: cypher-shell -u neo4j -p <password> -f neo4j/schema.cypher
-// (or paste into Neo4j Browser). Idempotent: safe to re-run.
 
-// ---------------------------------------------------------------------------
 // Graph model
-// ---------------------------------------------------------------------------
+// 
 // Nodes:
 //   (:User    {user_id, profile_type, location})
 //   (:Skill   {name, esco_uri})

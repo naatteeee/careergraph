@@ -1,12 +1,3 @@
-"""Seed demo data into PostgreSQL and Neo4j.
-
-Usage:
-    PYTHONPATH=src python scripts/seed_demo_data.py
-
-Reads jobs from the sample provider, extracts skills, then (best-effort)
-persists to Postgres and builds the Neo4j graph. Database steps are skipped
-gracefully if the services are unreachable.
-"""
 from __future__ import annotations
 
 import logging

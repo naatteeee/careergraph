@@ -1,14 +1,3 @@
-"""Market-coverage analytics.
-
-Quantifies the value proposition of multi-source aggregation:
-
-* **jobs by source** — distribution across providers,
-* **hidden-market percentage** — share of jobs from non-mainstream sources
-  (company pages, EURES, startups, agencies, university portals) that a
-  single mainstream board would miss,
-* **student vs non-student** — accessibility of the market to early-career users,
-* **most requested skills** — top demanded skills across all postings.
-"""
 from __future__ import annotations
 
 from collections import Counter

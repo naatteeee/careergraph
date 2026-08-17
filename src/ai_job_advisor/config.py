@@ -1,9 +1,3 @@
-"""Application configuration loaded from environment variables.
-
-Kept dependency-free (no pydantic-settings) so the config layer is importable
-in any environment, including minimal CI. Values are read once at import time
-via :func:`get_settings`.
-"""
 from __future__ import annotations
 
 import os

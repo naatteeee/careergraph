@@ -1,8 +1,3 @@
-"""Neo4j graph persistence and graph-based reasoning.
-
-The ``neo4j`` driver is imported lazily; if Neo4j is disabled or unreachable
-the application degrades gracefully (the in-memory recommender still works).
-"""
 from __future__ import annotations
 
 import logging

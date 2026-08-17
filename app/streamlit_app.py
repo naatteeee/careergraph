@@ -1,9 +1,3 @@
-"""AI Job Advisor — Streamlit dashboard.
-
-Run with:  streamlit run app/streamlit_app.py
-The app works fully offline using the sample provider and hashing embeddings;
-configure providers/embeddings via environment variables (see .env.example).
-"""
 from __future__ import annotations
 
 import sys

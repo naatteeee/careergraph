@@ -1,7 +1,3 @@
--- AI Job Advisor — PostgreSQL schema
--- Run automatically by docker-compose (mounted into /docker-entrypoint-initdb.d)
--- or via PostgresClient.init_schema().
-
 CREATE TABLE IF NOT EXISTS companies (
     company_id   SERIAL PRIMARY KEY,
     name_norm    TEXT UNIQUE NOT NULL,

@@ -1,11 +1,3 @@
-"""AI skill extraction, normalisation and taxonomy.
-
-The extractor is deterministic and offline by default: it matches a curated,
-ESCO-inspired skill taxonomy (canonical name -> aliases) against job text using
-word-boundary matching, then normalises everything to canonical names. This is
-fast, explainable and unit-testable. A neural / LLM extractor can be layered on
-top later behind the same interface.
-"""
 from __future__ import annotations
 
 import re

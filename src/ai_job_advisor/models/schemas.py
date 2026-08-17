@@ -1,8 +1,3 @@
-"""Core domain models for AI Job Advisor.
-
-These are intentionally plain ``dataclasses`` with type hints so the domain
-layer carries no heavy third-party dependency and is trivial to unit-test.
-"""
 from __future__ import annotations
 
 import hashlib
@@ -20,8 +15,7 @@ class ProfileType(str, Enum):
     NON_STUDENT = "non_student"
 
 
-# Sources we treat as "mainstream / highly visible" job boards. Anything
-# coming from a different source counts towards the *hidden* job market.
+
 MAINSTREAM_SOURCES: frozenset[str] = frozenset({"adzuna", "jooble", "linkedin", "mojedelo"})
 
 

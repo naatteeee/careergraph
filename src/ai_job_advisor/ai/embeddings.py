@@ -1,16 +1,4 @@
-"""Embedding abstraction.
 
-A single :class:`EmbeddingProvider` protocol with three interchangeable
-implementations selected via configuration:
-
-* ``LocalSentenceTransformerProvider`` — runs a local Sentence-Transformers model.
-* ``OpenAICompatibleProvider``         — any OpenAI-compatible ``/embeddings`` API.
-* ``HashingEmbeddingProvider``         — deterministic, offline, no downloads
-  (default; used for tests and zero-dependency demos).
-
-Heavy dependencies (``sentence_transformers``, ``openai``/``requests``) are
-imported lazily so this module imports cleanly in a minimal environment.
-"""
 from __future__ import annotations
 
 import hashlib

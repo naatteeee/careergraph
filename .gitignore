@@ -11,3 +11,7 @@ data/esco/
 .env
 __pycache__/
 *.pyc
+paper/data/archive/
+paper/data/esco/
+
+/data/

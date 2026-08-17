@@ -1,10 +1,4 @@
-"""PostgreSQL persistence layer.
 
-Thin wrapper around ``psycopg`` (v3). The dependency is imported lazily so the
-rest of the application runs without a database (e.g. in tests or a pure
-in-memory demo). All methods are no-ops-friendly: callers may run fully
-in-memory and only persist when a database is configured.
-"""
 from __future__ import annotations
 
 import logging

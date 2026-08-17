@@ -1,11 +1,4 @@
-"""Offline sample provider.
 
-Returns a deterministic set of realistic postings so the whole application —
-ingestion, extraction, graph build, recommendation, analytics, dashboard —
-runs end-to-end with no API keys and no network. Crucially it includes
-postings from *non-mainstream* sources (company pages, EURES, startups) so the
-hidden-market analytics are meaningful in the demo.
-"""
 from __future__ import annotations
 
 from datetime import datetime, timedelta

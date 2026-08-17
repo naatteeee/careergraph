@@ -1,12 +1,3 @@
-"""Skill-gap analysis.
-
-Given a user's skills and a target (an explicit set of required skills, e.g. a
-target job, or the aggregate demand across the market), compute:
-
-* **missing skills** — required skills the user lacks,
-* **learning priorities** — missing skills ranked by market demand,
-* **readiness score** — fraction of required skills the user already holds.
-"""
 from __future__ import annotations
 
 from collections import Counter
